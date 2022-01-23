@@ -1,0 +1,80 @@
+.password-card-bg {
+  width: 300px;
+  border: 1px solid #94a3b8;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  list-style-type: none;
+}
+.password-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+.profile-siteName-userName-pass {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 855;
+}
+.profile-container {
+  background-color: green;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.profile-letter {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #f8fafc;
+  font-weight: 400;
+}
+.Names-and-pass-container {
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.stars-img {
+  width: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.delete-btn {
+  border: none;
+  background: transparent;
+  outline: none;
+  margin-left: 55px;
+}
+.del-img {
+  width: 25px;
+  height: 25px;
+}
+.password {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .password-card-bg {
+    width: 350px;
+  }
+  .delete-btn {
+    margin-left: 80px;
+  }
+}

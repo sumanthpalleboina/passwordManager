@@ -1,0 +1,269 @@
+.app-container {
+  background-color: #9ba9eb;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .app-container {
+    padding: 60px;
+  }
+}
+.img-container {
+  margin-bottom: 20px;
+}
+.logo {
+  height: 40px;
+}
+@media (min-width: 768px) {
+  .logo {
+    height: 60px;
+  }
+}
+
+/** top-section designng **/
+
+.top-section {
+  background-color: #5763a5;
+  background-size: cover;
+  min-height: 100vh;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.password-manager-lg-pic {
+  display: none;
+}
+.password-manager-sm-pic {
+  width: 80%;
+  height: 50%;
+  flex-shrink: 1;
+}
+.form-card {
+  background-color: #454f84;
+  background-size: cover;
+  padding: 20px;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.Add-New-Password {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #f8fafc;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.input-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 8px;
+}
+.icon-hr-container {
+  display: flex;
+  flex-direction: row;
+}
+.input-icon {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+}
+.hr-line {
+  background-color: grey;
+  border: 1px solid grey;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: black;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.add-btn {
+  height: 35px;
+  width: 80px;
+  color: white;
+  background: #0b69ff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+  }
+  .password-manager-sm-pic {
+    display: none;
+  }
+  .password-manager-lg-pic {
+    display: inline;
+    width: 50%;
+    height: 500px;
+  }
+  .form-card {
+    width: 40%;
+    margin-left: 10px;
+    height: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .Add-New-Password {
+    font-size: 23px;
+    font-weight: 500;
+  }
+  .add-btn {
+    margin-top: 30px;
+  }
+}
+
+/** bottom section designing **/
+
+.bottom-section {
+  background-color: #5763a5;
+  background-size: cover;
+  min-height: 100vh;
+  border-radius: 18px;
+  padding: 15px;
+  margin-top: 30px;
+}
+.bottom-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.password-head-count-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.your-password {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #f8fafc;
+  font-weight: 500;
+}
+.counter-container {
+  padding: 3px;
+  border: 1px solid #b6c3ca;
+  border-radius: 40px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.count {
+  color: #f8fafc;
+  font-weight: 500;
+}
+.search-icon {
+  height: 25px;
+}
+.search-input-container {
+  height: 25px;
+}
+.show-password-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.checkbox-show-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.checkbox-style {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  margin-right: 14px;
+}
+.checkbox-label {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #f8fafc;
+  font-weight: 500;
+  margin-right: 14px;
+}
+@media (min-width: 768px) {
+  .bottom-section {
+    padding: 35px;
+  }
+  .your-password {
+    font-size: 20px;
+  }
+  .checkbox-style {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+  }
+  .checkbox-label {
+    font-size: 18px;
+  }
+  .passwordCards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/** No-password-container **/
+
+.No-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.no-password-img {
+  width: 400px;
+}
+.No-Passwords {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+}
+@media (min-width: 768px) {
+  .No-password-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .no-password-img {
+    width: 600px;
+  }
+  .No-Passwords {
+    font-size: 25px;
+  }
+}
